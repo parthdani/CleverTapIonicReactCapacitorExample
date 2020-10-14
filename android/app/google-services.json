@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "154889865123",
+    "firebase_url": "https://clevertapreactnativetutorial2.firebaseio.com",
+    "project_id": "clevertapreactnativetutorial2",
+    "storage_bucket": "clevertapreactnativetutorial2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154889865123:android:d2a58a49bc508908a4bc16",
+        "android_client_info": {
+          "package_name": "com.clevertapreactnativepushnotificationtutorial1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCad8959UBqjwr00A--t9G4Qc4UZDIiGo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154889865123:android:f72e0e60b69fe8f0a4bc16",
+        "android_client_info": {
+          "package_name": "com.example.clevertapcordovaandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCad8959UBqjwr00A--t9G4Qc4UZDIiGo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154889865123:android:680d43c1a60925aba4bc16",
+        "android_client_info": {
+          "package_name": "com.example.myApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCad8959UBqjwr00A--t9G4Qc4UZDIiGo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154889865123:android:0b03fea2e910b65fa4bc16",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCad8959UBqjwr00A--t9G4Qc4UZDIiGo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154889865123-h3qu685en9d5ljif44juiu6jc516iu66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

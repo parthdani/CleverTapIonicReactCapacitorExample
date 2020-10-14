@@ -12,7 +12,8 @@ export class Home extends Component {
   props: any = {};
   constructor(props: any) {
     super(props);
-    CleverTap.setDebugLevel(2);
+    CleverTap.setDebugLevel(3);
+    CleverTap.createNotificationChannel("123456789", "Test Channel", "A TEST channel", 5, true);
     this.state = { ...INITIAL_STATE };
   }
   async takePicture() {
