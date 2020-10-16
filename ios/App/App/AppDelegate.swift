@@ -23,12 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     
   func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        CleverTap.handlePushNotification(userInfo, openDeepLinksInForeground: true)
     }
     
   func application(application: UIApplication, openURL url: NSURL,
                      sourceApplication: String?, annotation: AnyObject) -> Bool {
-        CleverTap.sharedInstance()?.handleOpen(url as URL, sourceApplication: sourceApplication)
         return true
     }
     
@@ -41,7 +39,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
  func open(_ url: URL, options: [String : Any] = [:],
               completionHandler completion: ((Bool) -> Swift.Void)? = nil) {
-        CleverTap.sharedInstance()?.handleOpen(url, sourceApplication: nil)
         completion?(false)
     }
 
@@ -96,7 +93,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
   #if USE_PUSH
 
   func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-     CleverTap.sharedInstance()?.setPushToken(deviceToken)
     NotificationCenter.default.post(name: Notification.Name(CAPNotifications.DidRegisterForRemoteNotificationsWithDeviceToken.name()), object: deviceToken)
   }
 
