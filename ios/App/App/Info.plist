@@ -28,6 +28,16 @@
 				<string>capacitor</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.clevertap.csdemo</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.clevertap.csdemo</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>

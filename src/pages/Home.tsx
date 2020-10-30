@@ -10,13 +10,25 @@ const INITIAL_STATE = {
 export class Home extends Component {
   state: any = {};
   props: any = {};
+
+
   constructor(props: any) {
     super(props);
     CleverTap.setDebugLevel(3);
     CleverTap.createNotificationChannel("123456789", "Test Channel", "A TEST channel", 5, true);
-    CleverTap.registerforpush();
+    //CleverTap.registerforpush();
+    //Linking.addEventListener('url', this._handleOpenUrl);
+
     this.state = { ...INITIAL_STATE };
   }
+
+// deep link handling  
+
+  // _handleOpenUrl(event, from) {
+  //       console.log('handleOpenUrl', event.url, from);
+  //       alert('handleOpenUrl');
+    // }
+    
   async takePicture() {
           CleverTap.recordEventWithName("Ionic React Push Events");
           const image = await Camera.getPhoto({

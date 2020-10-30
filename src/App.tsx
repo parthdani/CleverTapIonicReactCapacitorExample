@@ -20,12 +20,16 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
+import AppUrlListener from './pages/AppUrlListener';
+
 /* Theme variables */
 import './theme/variables.css';
 
-const App: React.FC = () => (
+const App: React.FC <any> = () =>  (  
+
   <IonApp>
     <IonReactRouter>
+    <AppUrlListener></AppUrlListener>
       <IonRouterOutlet>
         <Route path="/home" component={Home} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
@@ -34,4 +38,7 @@ const App: React.FC = () => (
   </IonApp>
 );
 
+
+
+      
 export default App;
